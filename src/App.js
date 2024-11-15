@@ -35,7 +35,7 @@ const App = () => {
 
       {/* Main Content */}
       <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg z-10 max-w-md w-11/12 text-center">
-        <h1 className="text-2xl font-bold text-gray-800">
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-800">
           Hey Anime Lover! 🤗
         </h1>
         <p className="text-gray-700 mt-4 text-sm md:text-base">
@@ -62,8 +62,8 @@ const App = () => {
       {showPopup && (
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center z-20">
           <div className="bg-white p-6 md:p-8 rounded-lg text-center max-w-md w-11/12">
-            <h2 className="text-xl font-bold text-green-500">
-             yay,  I’m so excited to be your friend! 🎉
+            <h2 className="text-xl md:text-2xl font-bold text-green-500">
+              Yay! I’m so excited to be your friend! 🎉
             </h2>
             <p className="text-gray-600 mt-4 text-sm md:text-base">
               Let’s make this friendship unforgettable! 🌈 Looking forward to endless fun and great conversations!
